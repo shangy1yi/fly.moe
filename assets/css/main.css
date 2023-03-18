@@ -327,7 +327,7 @@ body {
 #background-small {
     filter: blur(5px);
     transform: scale(1.05);
-    background-image:url("https://thumbsnap.com/i/b8HgFV3S.jpg");
+    background-image:<a href="https://thumbsnap.com/b8HgFV3S" title="Image Hosted by ThumbSnap"><img src="https://thumbsnap.com/t/b8HgFV3S.jpg" alt="Free Photo Sharing by ThumbSnap" /></a>
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

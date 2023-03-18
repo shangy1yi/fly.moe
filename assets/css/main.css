@@ -341,7 +341,7 @@ body {
 }
 
 .smallBg {
-    transition: all 1s linear;
+    transition: all 2s linear;
 }
 
 main .content {

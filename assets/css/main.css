@@ -340,9 +340,7 @@ body {
     z-index: -1;
 }
 
-.smallBg {
-    transition: all 1s linear;
-}
+
 
 main .content {
     display: flex;

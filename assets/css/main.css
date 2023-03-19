@@ -378,7 +378,9 @@ main .content {
 .left .menu li {
     margin-top: 1em;
 }
-
+.left .menu button {
+    margin-bottom: 10px;
+}
 .left .menu li a {
     color: white;
     cursor: pointer;

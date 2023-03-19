@@ -683,9 +683,9 @@ button {
     font-size: 14px;
     font-family: inherit;
     color: #fff;
-    width: 9em;
-    height: 3em;
-    line-height: 2em;
+    width: 8em; /* 减小10像素 */
+    height: 2.5em; /* 减小10像素 */
+    line-height: 1.5em; /* 减小10像素 */
     text-align: center;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     background-size: 300%;

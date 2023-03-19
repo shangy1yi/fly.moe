@@ -375,7 +375,9 @@ main .content {
     flex: 1;
 }
 
-
+.menu button {
+    margin-bottom: 20px;
+    }
 
 .left .menu li a {
     color: white;

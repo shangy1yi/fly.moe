@@ -380,7 +380,9 @@ main .content {
 }
 .left .menu button {
     margin-bottom: 20px;
+    padding: 0 10px;
 }
+
 .left .menu li a {
     color: white;
     cursor: pointer;

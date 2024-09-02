@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="zh-cmn-Hans">
-<script src="https://kit.fontawesome.com/042185f0ac.js" crossorigin="anonymous"></script>
 <head>
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/042185f0ac.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -35,7 +33,7 @@
     </div>
 
     <!-- Main box -->
-    <main>
+    <main id="mainContent">
         <div class="content">
             <div class="left">
                 <div class="avatar">
@@ -106,6 +104,13 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- 自动滚动到contact部分 -->
+    <script>
+        $(document).ready(function() {
+            window.location.hash = '#contact';
+        });
+    </script>
 </body>
 
 </html>
